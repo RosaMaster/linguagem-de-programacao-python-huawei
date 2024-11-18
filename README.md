@@ -12,8 +12,7 @@
 ---
 
 <!-- DESCRIBLE -->
-O material de capacitação em Python e o treinamento para promover amplas condições de acessibilidade e de uso da Linguagem de Programação Python.
-
+Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvimento e Inovação entre o Centro Estadual de Educação Tecnológica Paula Souza – CEETEPS, por intermédio da Fatec Sorocaba e Fatec Jundiaí e a Huawei do Brasil, com interveniência da Fundação para Desenvolvimento da UNESP – FUNDUNESP. Este acordo prevê o desenvolvimento de material de capacitação em Python e o treinamento para promover amplas condições de acessibilidade e de uso da Linguagem de Programação Python.
 
 ---
 
@@ -26,7 +25,7 @@ O material de capacitação em Python e o treinamento para promover amplas condi
 
 <details>
 
-<!-- SEMANA 01 -->
+<!-- CAPÍTULO 01 -->
 &#128311; Capítulo 01 - Introdução (Instalação do Python e uso do seu ambiente)<br>
 >> Aula 01 - [InstalacaoPython](https://www.youtube.com/watch?v=HhKWf7OY0Tk&t=5s)<br>
 >
@@ -34,6 +33,7 @@ O material de capacitação em Python e o treinamento para promover amplas condi
 >
 >> Aula 03 - [Utilizando PyCharm](https://www.youtube.com/watch?v=PlfxUOKrVks&t=1s)<br>
 
+<!-- CAPÍTULO 02 -->
 &#128310; Capítulo 02 - Classes e Objetos<br>
 >> Aula 04 - [Armazenamento de dados em programas](https://www.youtube.com/watch?v=TfHcCuEJC0s)<br>
 >
@@ -55,6 +55,7 @@ O material de capacitação em Python e o treinamento para promover amplas condi
 >
 >> Aula 13 - [Funções matemáticas](https://www.youtube.com/watch?v=nmXFYS28Mo0&t=1s)<br>
 
+<!-- CAPÍTULO 03 -->
 &#128311; Capítulo 03 - Comandos de Saída e Entrada<br>
 >> Aula 14 - [Função print (Parte I)](https://www.youtube.com/watch?v=sZmn1R_RbW0&t=1s)<br>
 >
@@ -66,12 +67,26 @@ O material de capacitação em Python e o treinamento para promover amplas condi
 >
 >> Aula 18 - [Função input (Parte II)](https://www.youtube.com/watch?v=2TvI0z9pn3M&t=3s)<br>
 
+<!-- CAPÍTULO 04 -->
 &#128310; Capítulo 04 - Comando Condicional<br>
+>> Aula 19 - []()<br>
+>> Aula 20 - []()<br>
+>> Aula 21 - []()<br>
+>> Aula 22 - []()<br>
+>> Aula 23 - []()<br>
+>> Aula 24 - []()<br>
+>> Aula 18 - []()<br>
+>> Aula 18 - []()<br>
+>> Aula 18 - []()<br>
+>> Aula 18 - []()<br>
 
+<!-- CAPÍTULO 05 -->
 &#128311; Capítulo 05 - Comandos de Repetição<br>
 
+<!-- CAPÍTULO 06 -->
 &#128310; Capítulo 06 - Tratamento de Exceções<br>
 
+<!-- CAPÍTULO 07 -->
 &#128311; Capítulo 07 - Objetos Compostos<br>
 
 <br>
@@ -86,7 +101,35 @@ O material de capacitação em Python e o treinamento para promover amplas condi
 
 <details>
 
-<br>
+&#128310; Capítulo 08 - Comandos condicionais (Aprofundamento)<br>
+>> Aula 01 - [Comando Match-Case](https://www.youtube.com/watch?v=v96umZQJWt0&t=385s)<br>
+>
+>> Aula 02 - [Comando if inline (Conceito)](https://www.youtube.com/watch?v=OcxJ_XBcE8Y&t=280s)<br>
+>
+>> Aula 03 - [Comando if inline (else obrigatório)](https://www.youtube.com/watch?v=11UTJ_TIdt8&t=359s)<br>
+>
+>> Aula 04 - [Retorno de valor com if inline](https://www.youtube.com/watch?v=1oBQTk3M3p8&t=6s)<br>
+
+&#128311; Capítulo 09 - Conjuntos<br>
+>> Aula 05 - [Classe set (conjuntos em Python)](https://www.youtube.com/watch?v=4OMAM5W8N_E&t=93s)<br>
+>
+>> Aula 06 - [Classe set (Modos de criação)](https://www.youtube.com/watch?v=-Sm2sNAsPU4&t=10s)<br>
+>
+>> Aula 07 - [Hash e classes hashable](https://www.youtube.com/watch?v=3pYWi5_1lic&t=1s)<br>
+>
+>> Aula 08 - [Classes set e classes hashable](https://www.youtube.com/watch?v=x3E2_lyJCKQ&t=26s)<br>
+>
+>> Aula 09 - [Métodos da classe set](https://www.youtube.com/watch?v=LSiSdvCC8qM)<br>
+>
+>> Aula 10 - [Classe set usada como iterador](https://www.youtube.com/watch?v=cRdq1whAM84&t=1s)<br>
+>
+>> [Exercício resolvido 1: Classe Set - aplicação](https://www.youtube.com/watch?v=E7J0cxoETtg&t=1s)<br>
+
+
+&#128310; Capítulo 10 - Dicionários<br>
+&#128311; Capítulo 11 - Arquivos<br>
+&#128310; Capítulo 12 - Funções<br>
+&#128311; Capítulo 13 - List comprehension<br>
 
 #### `CERTIFICADO`
 ![Certificado-Modulo-II](/img/certificado_modulo_ii.png)<br>
