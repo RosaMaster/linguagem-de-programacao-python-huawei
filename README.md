@@ -96,11 +96,13 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 
 </details>
 
-<!-- 
+<br>
+
 ### **Modulo II: Itermediário**
 
 <details>
 
+<!-- CAPÍTULO 08 -->
 &#128310; Capítulo 08 - Comandos condicionais (Aprofundamento)<br>
 >> Aula 01 - [Comando Match-Case](https://www.youtube.com/watch?v=v96umZQJWt0&t=385s)<br>
 >
@@ -110,6 +112,7 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 >
 >> Aula 04 - [Retorno de valor com if inline](https://www.youtube.com/watch?v=1oBQTk3M3p8&t=6s)<br>
 
+<!-- CAPÍTULO 09 -->
 &#128311; Capítulo 09 - Conjuntos<br>
 >> Aula 05 - [Classe set (conjuntos em Python)](https://www.youtube.com/watch?v=4OMAM5W8N_E&t=93s)<br>
 >
@@ -125,17 +128,78 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 >
 >> [Exercício resolvido 1: Classe Set - aplicação](https://www.youtube.com/watch?v=E7J0cxoETtg&t=1s)<br>
 
-
+<!-- CAPÍTULO 10 -->
 &#128310; Capítulo 10 - Dicionários<br>
+>> Aula 11 - [Dicionários (classe dict)]()<br>
+>
+>> Aula 12 - [Dicionários (Inclusão de elementos)]()<br>
+>
+>> Aula 13 - [Dicionários (Alteração de elementos)]()<br>
+>
+>> Aula 14 - [Métodos da classe dict]()<br>
+>
+>> Aula 15 - [Dicionários (Iteração com as )]()<br>
+>
+>> Aula 16 - [Dicionários (Iteração com os va)]()<br>
+>
+>> Aula 17 - [Dicionários (Iteração conjuntos)]()<br>
+>
+>> [Exercício resolvido 2: Dicionário]()<br>
+>
+>> [Exercício resolvido 3: Dicionário]()<br>
+>
+>> [Exercício resolvido 4: Dicionário]()<br>
+>
+>> [Exercício resolvido 5: Dicionário]()<br>
+
+<!-- CAPÍTULO 11 -->
 &#128311; Capítulo 11 - Arquivos<br>
+>> [Exercício resolvido 6: Arquivos]()<br>
+>
+>> [Exercício resolvido 7: Arquivos]()<br>
+>
+>> [Exercício resolvido 8: Arquivos]()<br>
+>
+>> [Exercício resolvido 9: Arquivos]()<br>
+>
+>> [Exercício resolvido 10: Arquivos]()<br>
+>
+>> [Exercício resolvido 11: Arquivos]()<br>
+
+<!-- CAPÍTULO 12 -->
 &#128310; Capítulo 12 - Funções<br>
+>> [Exercício resolvido 12: Funções]()<br>
+>
+>> [Exercício resolvido 13: Funções]()<br>
+>
+>> [Exercício resolvido 14: Funções]()<br>
+>
+>> [Exercício resolvido 15: Funções]()<br>
+>
+>> [Exercício resolvido 16: Funções]()<br>
+>
+>> [Exercício resolvido 17: Funções]()<br>
+>
+>> [Exercício resolvido 18: Funções]()<br>
+>
+>> [Exercício resolvido 19: Funções]()<br>
+>
+>> [Exercício resolvido 20: Funções]()<br>
+
+<!-- CAPÍTULO 13 -->
 &#128311; Capítulo 13 - List comprehension<br>
+>> Aula 90 - [Conceito)](https://www.youtube.com/watch?v=B6Fy8mrYayQ&t=1s)<br>
+>
+>> Aula 91 - [Aplicação de filtro](https://www.youtube.com/watch?v=A70Mfe5m0Ho&t=1s)<br>
+>
+>> [Exercício resolvido 21: List comprehension](https://www.youtube.com/watch?v=HsbaEFWP8RU&t=3s)<br>
+>
+>> [Exercício resolvido 22: List comprehension](https://www.youtube.com/watch?v=xWJOIbTA6Iw&t=1s)<br>
 
 #### `CERTIFICADO`
 ![Certificado-Modulo-II](/img/certificado_modulo_ii.png)<br>
 
 </details>
--->
 
 <!--
 ### **Modulo III: Avançado**
