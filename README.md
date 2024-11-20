@@ -69,16 +69,25 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 
 <!-- CAPÍTULO 04 -->
 &#128310; Capítulo 04 - Comando Condicional<br>
->> Aula 19 - []()<br>
->> Aula 20 - []()<br>
->> Aula 21 - []()<br>
->> Aula 22 - []()<br>
->> Aula 23 - []()<br>
->> Aula 24 - []()<br>
->> Aula 18 - []()<br>
->> Aula 18 - []()<br>
->> Aula 18 - []()<br>
->> Aula 18 - []()<br>
+>> Aula 19 - [Comando condicional (Motivação)](https://www.youtube.com/watch?v=aXQF7-R2GGQ&t=6s)<br>
+>
+>> Aula 20 - [Comando condicional (Conceito)](https://www.youtube.com/watch?v=3VY2a3nJlno&t=6s)<br>
+>
+>> Aula 21 - [Condições simples](https://www.youtube.com/watch?v=ZfiXswGH6bI&t=1s)<br>
+>
+>> Aula 22 - [Condições compostas](https://www.youtube.com/watch?v=9SIUs0RT9tw&t=1s)<br>
+>
+>> Aula 23 - [Comando condicional (Forma Completa)](https://www.youtube.com/watch?v=2woJHN4NPWk&t=6s)<br>
+>
+>> Aula 24 - [Comando condicional aninhados](https://www.youtube.com/watch?v=ZD_ETNS1LNw&t=2s)<br>
+>
+>> [Exercício resolvido 1: Comando condicional - aplicação](https://www.youtube.com/watch?v=aMlvEKYKiSo&t=6s)<br>
+>
+>> [Exercício resolvido 2: Comando condicional - aplicação](https://www.youtube.com/watch?v=1YU1tLpVAL4&t=6s)<br>
+>
+>> [Exercício resolvido 3: Comando condicional - aplicação](https://www.youtube.com/watch?v=bL2JEqRs58s&t=2s)<br>
+>
+>> [Exercício resolvido 4: Comando condicional - aplicação](https://www.youtube.com/watch?v=AbdzzRIB3_o&t=3s)<br>
 
 <!-- CAPÍTULO 05 -->
 &#128311; Capítulo 05 - Comandos de Repetição<br>
