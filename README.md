@@ -139,13 +139,13 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 
 <!-- CAPÍTULO 10 -->
 &#128310; Capítulo 10 - Dicionários<br>
->> Aula 11 - [Dicionários (classe dict)]()<br>
+>> Aula 11 - [Dicionários (classe dict)](https://www.youtube.com/watch?v=er3bEOmOpBw&t=8s)<br>
 >
->> Aula 12 - [Dicionários (Inclusão de elementos)]()<br>
+>> Aula 12 - [Dicionários (Inclusão de elementos)](https://www.youtube.com/watch?v=eIohx77RHwQ&t=5s)<br>
 >
->> Aula 13 - [Dicionários (Alteração de elementos)]()<br>
+>> Aula 13 - [Dicionários (Alteração de elementos)](https://www.youtube.com/watch?v=wY09KBWWLCg&t=4s)<br>
 >
->> Aula 14 - [Métodos da classe dict]()<br>
+>> Aula 14 - [Métodos da classe dict](https://www.youtube.com/watch?v=eXbGy-N9p4Y&t=12s)<br>
 >
 >> Aula 15 - [Dicionários (Iteração com as )]()<br>
 >
