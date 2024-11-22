@@ -147,7 +147,7 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 >
 >> Aula 14 - [Métodos da classe dict](https://www.youtube.com/watch?v=eXbGy-N9p4Y&t=12s)<br>
 >
->> Aula 15 - [Dicionários (Iteração com as )]()<br>
+>> Aula 15 - [Dicionários (Iteração com as chaves dos elementos)](https://www.youtube.com/watch?v=L-d2qqQVsx4&t=2s)<br>
 >
 >> Aula 16 - [Dicionários (Iteração com os va)]()<br>
 >
