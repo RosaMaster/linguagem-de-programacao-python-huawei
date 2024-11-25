@@ -149,17 +149,17 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 >
 >> Aula 15 - [Dicionários (Iteração com as chaves dos elementos)](https://www.youtube.com/watch?v=L-d2qqQVsx4&t=2s)<br>
 >
->> Aula 16 - [Dicionários (Iteração com os va)]()<br>
+>> Aula 16 - [Dicionários (Iteração com os valores dos elementos)](https://www.youtube.com/watch?v=3vkgDNemxd4&t=7s)<br>
 >
->> Aula 17 - [Dicionários (Iteração conjuntos)]()<br>
+>> Aula 17 - [Dicionários (Iteração conjunta chave-valor)](https://www.youtube.com/watch?v=xFvtga-th1Y)<br>
 >
->> [Exercício resolvido 2: Dicionário]()<br>
+>> [Exercício resolvido 2: Dicionário](https://www.youtube.com/watch?v=e7QdMqMvfvw&t=6s)<br>
 >
->> [Exercício resolvido 3: Dicionário]()<br>
+>> [Exercício resolvido 3: Dicionário](https://www.youtube.com/watch?v=KsrEol7adQA&t=1s)<br>
 >
->> [Exercício resolvido 4: Dicionário]()<br>
+>> [Exercício resolvido 4: Dicionário](https://www.youtube.com/watch?v=1zbuh5RhMR4&t=1s)<br>
 >
->> [Exercício resolvido 5: Dicionário]()<br>
+>> [Exercício resolvido 5: Dicionário](https://www.youtube.com/watch?v=YDQ9OqzhHak)<br>
 
 <!-- CAPÍTULO 11 -->
 &#128311; Capítulo 11 - Arquivos<br>
