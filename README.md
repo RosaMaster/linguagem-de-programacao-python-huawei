@@ -163,17 +163,17 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 
 <!-- CAPÍTULO 11 -->
 &#128311; Capítulo 11 - Arquivos<br>
->> [Exercício resolvido 6: Arquivos]()<br>
+>> [Exercício resolvido 6: Arquivos](https://www.youtube.com/watch?v=A2_ExaBonX4)<br>
 >
->> [Exercício resolvido 7: Arquivos]()<br>
+>> [Exercício resolvido 7: Arquivos](https://www.youtube.com/watch?v=tXnzBveXtkU)<br>
 >
->> [Exercício resolvido 8: Arquivos]()<br>
+>> [Exercício resolvido 8: Arquivos](https://www.youtube.com/watch?v=TcOFO3ZP-us)<br>
 >
->> [Exercício resolvido 9: Arquivos]()<br>
+>> [Exercício resolvido 9: Arquivos](https://www.youtube.com/watch?v=7R3-ynRogEk)<br>
 >
->> [Exercício resolvido 10: Arquivos]()<br>
+>> [Exercício resolvido 10: Arquivos](https://www.youtube.com/watch?v=rRpQPnrBcVE)<br>
 >
->> [Exercício resolvido 11: Arquivos]()<br>
+>> [Exercício resolvido 11: Arquivos](https://www.youtube.com/watch?v=mH7YYTrVucU)<br>
 
 <!-- CAPÍTULO 12 -->
 &#128310; Capítulo 12 - Funções<br>
