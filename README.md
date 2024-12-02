@@ -163,6 +163,8 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 
 <!-- CAPÍTULO 11 -->
 &#128311; Capítulo 11 - Arquivos<br>
+>> Aula 18 - [Arquivos - WITH em Python](https://www.youtube.com/watch?v=oBpw2ymDL14)<br>
+>
 >> [Exercício resolvido 6: Arquivos](https://www.youtube.com/watch?v=A2_ExaBonX4)<br>
 >
 >> [Exercício resolvido 7: Arquivos](https://www.youtube.com/watch?v=tXnzBveXtkU)<br>
@@ -177,33 +179,65 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 
 <!-- CAPÍTULO 12 -->
 &#128310; Capítulo 12 - Funções<br>
->> [Exercício resolvido 12: Funções]()<br>
+>> Aula 19 - [Funções - Motivação e Conceito](https://www.youtube.com/watch?v=QwhPwGYRn1k&t=12s)<br>
 >
->> [Exercício resolvido 13: Funções]()<br>
+>> Aula 20 - [Funções - Retorno de função(Parte 01)](https://www.youtube.com/watch?v=m-n-_BcbG3A)<br>
 >
->> [Exercício resolvido 14: Funções]()<br>
+>> Aula 21 - [Funções - Retorno de função(Parte 02)](https://www.youtube.com/watch?v=iSuxz0C2_Zo)<br>
 >
->> [Exercício resolvido 15: Funções]()<br>
+>> Aula 22 - [Funções - Parâmetros de entrada(Parte 01)](https://www.youtube.com/watch?v=2lWvNTrevYE&t=1s)<br>
 >
->> [Exercício resolvido 16: Funções]()<br>
+>> Aula 23 - [Funções - Parâmetros de entrada(Parte 02)](https://www.youtube.com/watch?v=HXBD_EITJbU)<br>
 >
->> [Exercício resolvido 17: Funções]()<br>
+>> Aula 24 - [Funções - Parâmetros com valor padrão](https://www.youtube.com/watch?v=TVDmF4XmIs0)<br>
 >
->> [Exercício resolvido 18: Funções]()<br>
+>> Aula 25 - [Funções - Parâmetros nomeados](https://www.youtube.com/watch?v=3vuy4rTvGX0)<br>
 >
->> [Exercício resolvido 19: Funções]()<br>
+>> Aula 26 - [Funções - Empacotamento de parâmetros(Parte 01)](https://www.youtube.com/watch?v=mCACifn812A&t=6s)<br>
 >
->> [Exercício resolvido 20: Funções]()<br>
+>> Aula 27 - [Funções - Empacotamento de parâmetros(Parte 02)](https://www.youtube.com/watch?v=1q6twDGPfxs&t=9s)<br>
+>
+>> Aula 28 - [Funções - Desempacotamento de parâmetros(Parte 02)](https://www.youtube.com/watch?v=MAcdtv-d63g&t=5s)<br>
+>
+>> Aula 29 - [Funções - Escopo de objetos em funções](https://www.youtube.com/watch?v=Ukt9jdvAhkk&t=6s)<br>
+>
+>> Aula 30 - [Funções - Recursivas(Conceito)](https://www.youtube.com/watch?v=qDFQHn6iZsA&t=6s)<br>
+>
+>> Aula 31 - [Funções - Lambda(Conceito)](https://www.youtube.com/watch?v=b8MVjIS7_SQ&t=7s)<br>
+>
+>> Aula 32 - [Funções - Lambda uso combinado com método map](https://www.youtube.com/watch?v=cf8L99p6qQI&t=6s)<br>
+>
+>> Aula 33 - [Funções - Aplicação](https://www.youtube.com/watch?v=P78S4xdjz4s&t=7s)<br>
+>
+>> [Exercício resolvido 12: Funções](https://www.youtube.com/watch?v=EPfVJPESYsI&t=7s)<br>
+>
+>> [Exercício resolvido 13: Funções](https://www.youtube.com/watch?v=_cu97MBUt00)<br>
+>
+>> [Exercício resolvido 14: Funções](https://www.youtube.com/watch?v=Dl2x6o7VtB8&t=6s)<br>
+>
+>> [Exercício resolvido 15: Funções](https://www.youtube.com/watch?v=mGjX1R7JxqI&t=6s)<br>
+>
+>> [Exercício resolvido 16: Funções](https://www.youtube.com/watch?v=JQnEZQpVv4M&t=6s)<br>
+>
+>> [Exercício resolvido 17: Funções](https://www.youtube.com/watch?v=ub6wTapj0iQ&t=4s)<br>
+>
+>> [Exercício resolvido 18: Funções](https://www.youtube.com/watch?v=ub6wTapj0iQ&t=8s)<br>
+>
+>> [Exercício resolvido 19: Funções](https://www.youtube.com/watch?v=FP8j3uBJbj8&t=5s)<br>
+>
+>> [Exercício resolvido 20: Funções](https://www.youtube.com/watch?v=7u8eKBvrGXs&t=5s)<br>
+>
+>> [Exercício resolvido 21: Funções](https://www.youtube.com/watch?v=0Vg2MgIiV6s&t=1s)<br>
 
 <!-- CAPÍTULO 13 -->
 &#128311; Capítulo 13 - List comprehension<br>
->> Aula 90 - [Conceito)](https://www.youtube.com/watch?v=B6Fy8mrYayQ&t=1s)<br>
+>> Aula 34 - [Conceito)](https://www.youtube.com/watch?v=B6Fy8mrYayQ&t=1s)<br>
 >
->> Aula 91 - [Aplicação de filtro](https://www.youtube.com/watch?v=A70Mfe5m0Ho&t=1s)<br>
+>> Aula 35 - [Aplicação de filtro](https://www.youtube.com/watch?v=A70Mfe5m0Ho&t=1s)<br>
 >
->> [Exercício resolvido 21: List comprehension](https://www.youtube.com/watch?v=HsbaEFWP8RU&t=3s)<br>
+>> [Exercício resolvido 22: List comprehension](https://www.youtube.com/watch?v=HsbaEFWP8RU&t=3s)<br>
 >
->> [Exercício resolvido 22: List comprehension](https://www.youtube.com/watch?v=xWJOIbTA6Iw&t=1s)<br>
+>> [Exercício resolvido 23: List comprehension](https://www.youtube.com/watch?v=xWJOIbTA6Iw&t=1s)<br>
 
 #### `CERTIFICADO`
 ![Certificado-Modulo-II](/img/certificado_modulo_ii.png)<br>
