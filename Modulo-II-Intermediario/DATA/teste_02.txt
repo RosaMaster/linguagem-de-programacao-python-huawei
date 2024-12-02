@@ -1,5 +1,2 @@
 Olá, mundo!
-Adicionando uma nova linha. TESTE
-Adicionando uma nova linha. TESTE
-Adicionando uma nova linha. TESTE
-Adicionando uma nova linha. TESTE
+Adicionando uma nova linha. TESTE02

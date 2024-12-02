@@ -207,7 +207,7 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 >
 >> Aula 32 - [Funções - Lambda uso combinado com método map](https://www.youtube.com/watch?v=cf8L99p6qQI&t=6s)<br>
 >
->> Aula 33 - [Funções - Aplicação](https://www.youtube.com/watch?v=P78S4xdjz4s&t=7s)<br>
+>> Aula 33 - [Funções - Lambda aplicação](https://www.youtube.com/watch?v=P78S4xdjz4s&t=7s)<br>
 >
 >> [Exercício resolvido 12: Funções](https://www.youtube.com/watch?v=EPfVJPESYsI&t=7s)<br>
 >
@@ -244,7 +244,7 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 
 </details>
 
-<!--
+
 ### **Modulo III: Avançado**
 
 <details>
@@ -255,7 +255,6 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 ![Certificado-Modulo-III](/img/certificado_modulo_iii.png)<br>
 
 </details>
--->
 
 ---
 ### **RosaMaster**
