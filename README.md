@@ -231,9 +231,9 @@ Em dezembro de 2023 foi celebrado o Acordo de Parceria para Pesquisa, Desenvolvi
 
 <!-- CAPÍTULO 13 -->
 &#128311; Capítulo 13 - List comprehension<br>
->> Aula 34 - [Conceito)](https://www.youtube.com/watch?v=B6Fy8mrYayQ&t=1s)<br>
+>> Aula 34 - [List comprehension - (Conceito)](https://www.youtube.com/watch?v=B6Fy8mrYayQ&t=1s)<br>
 >
->> Aula 35 - [Aplicação de filtro](https://www.youtube.com/watch?v=A70Mfe5m0Ho&t=1s)<br>
+>> Aula 35 - [List comprehension - Aplicação de filtro](https://www.youtube.com/watch?v=A70Mfe5m0Ho&t=1s)<br>
 >
 >> [Exercício resolvido 22: List comprehension](https://www.youtube.com/watch?v=HsbaEFWP8RU&t=3s)<br>
 >
