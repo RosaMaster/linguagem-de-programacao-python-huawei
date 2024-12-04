@@ -33,30 +33,3 @@ jobs:
           pip install flake8
           flake8 .
         fi
-
-  valida-nome-branch:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Verifique o evento e extraia o nome da branch corretamente
-      run: |
-        # Verifique o evento e extraia o nome da branch corretamente
-        if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
-          BRANCH_NAME="${GITHUB_REF##*/}"  # Para push, extrai a branch diretamente
-        elif [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
-          BRANCH_NAME="${GITHUB_HEAD_REF}"  # Para PR, usa GITHUB_HEAD_REF
-        else
-          echo "Erro: Evento não suportado"
-          exit 1
-        fi
-        
-        echo "BRANCH_NAME: $BRANCH_NAME"  # Exibe o nome da branch para depuração
-        
-        # Verifica se a branch segue os padrões permitidos (feature/*, bugfix/*, workflow/*)
-        if [[ "$BRANCH_NAME" =~ ^feature/.* || "$BRANCH_NAME" =~ ^bugfix/.* || "$BRANCH_NAME" =~ ^workflow/.* ]]; then
-          echo "A branch $BRANCH_NAME é uma branch válida."
-        else
-          echo "Erro: A branch não segue um padrão permitido (feature/*, bugfix/*, workflow/*)."
-          exit 1
-        fi
-      shell: bash
