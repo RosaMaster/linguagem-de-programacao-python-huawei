@@ -63,7 +63,7 @@ jobs:
         echo "BRANCH_NAME: $BRANCH_NAME"  # Exibe o nome da branch para depuração
 
         # Verifica se a branch segue os padrões permitidos (feature/*, bugfix/*, workflow/*)
-        if [[ "$BRANCH_NAME" =~ ^(feature|bugfix|workflow)/ ]]; then
+        if [[ "$BRANCH_NAME" =~ ^feature/ || "$BRANCH_NAME" =~ ^bugfix/ || "$BRANCH_NAME" =~ ^workflow/ ]]; then
           echo "A branch $BRANCH_NAME é uma branch válida."
         else
           echo "Erro: A branch não segue um padrão permitido (feature/*, bugfix/*, workflow/*)."
