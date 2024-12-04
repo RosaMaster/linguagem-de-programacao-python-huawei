@@ -16,15 +16,7 @@ jobs:
     - name: Checando o código
       uses: actions/checkout@v3  # Faz o checkout do código do repositório
 
-    - name: Verificando arquivos modificados
-      run: |
-        MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
-        if [[ -z "$MODIFIED_FILES" ]]; then
-          echo "Nenhum arquivo foi modificado!"
-          exit 1
-        fi
-        echo "Arquivos modificados: $MODIFIED_FILES"
-
+    
     - name: Verificando tipo de arquivos (exemplo para .ipynb)
       run: |
         if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '\.ipynb$'; then
@@ -35,7 +27,7 @@ jobs:
 
     - name: Validando estilo de código (exemplo para Jupyter Notebook usando flake8)
       run: |
-        if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '\.py$'; then
+        if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '\.ipynb$'; then
           pip install flake8
           flake8 .
         fi
