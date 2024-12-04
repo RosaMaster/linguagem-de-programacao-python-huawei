@@ -3,10 +3,11 @@ name: DEV
 on:
   push:
     branches:
-      - 'feature/*'  # Executa no push para branches que começam com "feature/"
+      - 'feature/*'  # Esse workflow será acionado quando um push for feito para uma branch de feature.
   pull_request:
     branches:
-      - feature/*        # Executa em pull requests para a branch principal
+      - 'develop'
+      - 'main'
 
 jobs:
   validate:
@@ -41,7 +42,17 @@ jobs:
 
     - name: Validar nome da branch
       run: |
-        BRANCH_NAME="${GITHUB_REF##*/}"  # Extrai o nome da branch
+        # Extrair o nome da branch dependendo do evento
+        if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+          BRANCH_NAME="${GITHUB_REF##*/}"  # Para push, extrai a branch diretamente
+        elif [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
+          BRANCH_NAME="${GITHUB_HEAD_REF}"  # Para PR, usa GITHUB_HEAD_REF
+        else
+          echo "Erro: Evento não suportado"
+          exit 1
+        fi
+
+        # Verifica se a branch segue o padrão feature/*
         if [[ ! "$BRANCH_NAME" =~ ^feature/ ]]; then
           echo "Erro: A branch não é uma branch de feature (feature/*)."
           exit 1
@@ -52,7 +63,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        BRANCH_NAME="${GITHUB_REF##*/}"
         echo "Criando PR da branch $BRANCH_NAME para develop..."
         curl -X POST \
         -H "Authorization: token $GITHUB_TOKEN" \
@@ -63,7 +73,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        BRANCH_NAME="${GITHUB_REF##*/}"
         echo "Criando PR da branch $BRANCH_NAME para main..."
         curl -X POST \
         -H "Authorization: token $GITHUB_TOKEN" \
