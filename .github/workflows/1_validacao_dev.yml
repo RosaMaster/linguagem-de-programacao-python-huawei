@@ -1,0 +1,48 @@
+name: DEV
+
+on:
+  push:
+    branches:
+      - 'feature/*'  # Executa no push para branches que começam com "feature/"
+  pull_request:
+    branches:
+      - develop        # Executa em pull requests para a branch principal
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checando o código
+      uses: actions/checkout@v3  # Faz o checkout do código do repositório
+
+    - name: Verificando se a branch está correta
+      run: |
+        if [[ "${GITHUB_REF}" != "refs/heads/develop" ]]; then
+          echo "A branch não é a develop, esta não é uma branch permitida para push!"
+          exit 1
+        fi
+
+    - name: Verificando arquivos modificados
+      run: |
+        MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+        if [[ -z "$MODIFIED_FILES" ]]; then
+          echo "Nenhum arquivo foi modificado!"
+          exit 1
+        fi
+        echo "Arquivos modificados: $MODIFIED_FILES"
+
+    - name: Verificando tipo de arquivos (exemplo para .ipynb)
+      run: |
+        if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '\.ipynb$'; then
+          echo "Arquivos Jupyter Notebook modificados!"
+        else
+          echo "Nenhum arquivo Jupyter Notebook modificado!"
+        fi
+
+    - name: Validando estilo de código (exemplo para Jupyter Notebook usando flake8)
+      run: |
+        if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '\.py$'; then
+          pip install flake8
+          flake8 .
+        fi
