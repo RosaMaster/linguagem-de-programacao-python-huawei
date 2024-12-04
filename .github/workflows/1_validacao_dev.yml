@@ -36,6 +36,8 @@ jobs:
         fi
 
   Valida-nome-branch:
+    runs-on: ubuntu-latest
+
     steps:
     - name: Verifique o evento e extraia o nome da branch corretamente
       run: |
