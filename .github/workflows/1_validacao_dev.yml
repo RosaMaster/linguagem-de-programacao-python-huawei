@@ -6,7 +6,7 @@ on:
       - 'feature/*'  # Executa no push para branches que começam com "feature/"
   pull_request:
     branches:
-      - develop        # Executa em pull requests para a branch principal
+      - feature/*        # Executa em pull requests para a branch principal
 
 jobs:
   validate:
@@ -15,15 +15,6 @@ jobs:
     steps:
     - name: Checando o código
       uses: actions/checkout@v3  # Faz o checkout do código do repositório
-
-    - name: Verificar se a branch é feature/*
-      run: |
-        BRANCH_NAME="${GITHUB_REF##*/}"  # Extrai o nome da branch
-        if [[ ! "$BRANCH_NAME" =~ ^feature/ ]]; then
-          echo "Erro: A branch não é uma branch de feature (feature/*)."
-          exit 1
-        fi
-        echo "A branch $BRANCH_NAME é uma branch de feature."
 
     - name: Verificando arquivos modificados
       run: |
