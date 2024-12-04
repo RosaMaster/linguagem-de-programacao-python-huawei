@@ -16,12 +16,14 @@ jobs:
     - name: Checando o código
       uses: actions/checkout@v3  # Faz o checkout do código do repositório
 
-    - name: Verificando se a branch está correta
+    - name: Verificar se a branch é feature/*
       run: |
-        if [[ "${GITHUB_REF}" != "refs/heads/feature/*" ]]; then
-          echo "A branch não é a feature/*, esta não é uma branch permitida para push!"
+        BRANCH_NAME="${GITHUB_REF##*/}"  # Extrai o nome da branch
+        if [[ ! "$BRANCH_NAME" =~ ^feature/ ]]; then
+          echo "Erro: A branch não é uma branch de feature (feature/*)."
           exit 1
         fi
+        echo "A branch $BRANCH_NAME é uma branch de feature."
 
     - name: Verificando arquivos modificados
       run: |
