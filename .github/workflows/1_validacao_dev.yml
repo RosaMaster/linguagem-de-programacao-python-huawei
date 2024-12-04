@@ -3,7 +3,9 @@ name: DEV
 on:
   push:
     branches:
-      - 'feature/*'  # Esse workflow será acionado quando um push for feito para uma branch de feature.
+      - 'feature/*'
+      - 'bugfix/*'
+      - 'workflow/*'
   pull_request:
     branches:
       - 'develop'
@@ -15,7 +17,7 @@ jobs:
 
     steps:
     - name: Checando o código
-      uses: actions/checkout@v3  # Faz o checkout do código do repositório
+      uses: actions/checkout@v3
 
     
     - name: Verificando tipo de arquivos (exemplo para .ipynb)
@@ -60,12 +62,13 @@ jobs:
 
         echo "BRANCH_NAME: $BRANCH_NAME"  # Exibe o nome da branch para depuração
 
-        # Verifica se a branch segue o padrão feature/*
-        if [[ ! "$BRANCH_NAME" =~ ^feature/ ]]; then
-          echo "Erro: A branch não é uma branch de feature (feature/*)."
+        # Verifica se a branch segue os padrões permitidos (feature/*, bugfix/*, workflow/*)
+        if [[ "$BRANCH_NAME" =~ ^(feature|bugfix|workflow)/ ]]; then
+          echo "A branch $BRANCH_NAME é uma branch válida."
+        else
+          echo "Erro: A branch não segue um padrão permitido (feature/*, bugfix/*, workflow/*)."
           exit 1
         fi
-        echo "A branch $BRANCH_NAME é uma branch de feature."
 
     - name: Criar PR para a branch develop
       env:
@@ -74,7 +77,7 @@ jobs:
         echo "Criando PR da branch $BRANCH_NAME para develop..."
         curl -X POST \
         -H "Authorization: token $GITHUB_TOKEN" \
-        -d '{"title":"Automated PR from feature branch to develop","head":"'$BRANCH_NAME'","base":"develop"}' \
+        -d '{"title":"Automated PR from branch to develop","head":"'$BRANCH_NAME'","base":"develop"}' \
         https://api.github.com/repos/${{ github.repository }}/pulls
 
     - name: Criar PR para a branch main
@@ -84,5 +87,5 @@ jobs:
         echo "Criando PR da branch $BRANCH_NAME para main..."
         curl -X POST \
         -H "Authorization: token $GITHUB_TOKEN" \
-        -d '{"title":"Automated PR from feature branch to main","head":"'$BRANCH_NAME'","base":"main"}' \
+        -d '{"title":"Automated PR from branch to main","head":"'$BRANCH_NAME'","base":"main"}' \
         https://api.github.com/repos/${{ github.repository }}/pulls
