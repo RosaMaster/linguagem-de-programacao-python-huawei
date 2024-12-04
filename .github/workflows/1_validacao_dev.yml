@@ -1,0 +1,35 @@
+name: DEV
+
+on:
+  push:
+    branches:
+      - 'feature/*'
+      - 'bugfix/*'
+      - 'workflow/*'
+  pull_request:
+    branches:
+      - 'develop'
+      - 'main'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checando o código
+      uses: actions/checkout@v3
+
+    - name: Verificando tipo de arquivos (exemplo para .ipynb)
+      run: |
+        if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '\.ipynb$'; then
+          echo "Arquivos Jupyter Notebook modificados!"
+        else
+          echo "Nenhum arquivo Jupyter Notebook modificado!"
+        fi
+
+    - name: Validando estilo de código (exemplo para Jupyter Notebook usando flake8)
+      run: |
+        if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '\.ipynb$'; then
+          pip install flake8
+          flake8 .
+        fi
