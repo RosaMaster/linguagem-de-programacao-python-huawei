@@ -40,9 +40,15 @@ jobs:
     - name: Checar o código
       uses: actions/checkout@v3
 
+    - name: Verificar variáveis de evento
+      run: |
+        echo "GITHUB_EVENT_NAME: $GITHUB_EVENT_NAME"
+        echo "GITHUB_REF: $GITHUB_REF"
+        echo "GITHUB_HEAD_REF: $GITHUB_HEAD_REF"
+
     - name: Validar nome da branch
       run: |
-        # Extrair o nome da branch dependendo do evento
+        # Verifique o evento e extraia o nome da branch corretamente
         if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
           BRANCH_NAME="${GITHUB_REF##*/}"  # Para push, extrai a branch diretamente
         elif [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
@@ -51,6 +57,8 @@ jobs:
           echo "Erro: Evento não suportado"
           exit 1
         fi
+
+        echo "BRANCH_NAME: $BRANCH_NAME"  # Exibe o nome da branch para depuração
 
         # Verifica se a branch segue o padrão feature/*
         if [[ ! "$BRANCH_NAME" =~ ^feature/ ]]; then
