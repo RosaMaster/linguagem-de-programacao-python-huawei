@@ -18,8 +18,8 @@ jobs:
 
     - name: Verificando se a branch está correta
       run: |
-        if [[ "${GITHUB_REF}" != "refs/heads/develop" ]]; then
-          echo "A branch não é a develop, esta não é uma branch permitida para push!"
+        if [[ "${GITHUB_REF}" != "refs/heads/feature/*" ]]; then
+          echo "A branch não é a feature/*, esta não é uma branch permitida para push!"
           exit 1
         fi
 
